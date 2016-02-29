@@ -9,6 +9,7 @@ import com.lin.domain.User;
  * @author linbingwen
  * @since 2015年9月28日
  */
+
 public interface UserDao {
 	/**
 	 * 
