@@ -1,0 +1,652 @@
+@charset "utf-8";
+/* CSS Document */
+
+html{width:100%; height:100%}
+body{width:100%; height:100%; padding:0px; margin:0px; font-size:16px; font-family:"Microsoft YaHei", Arial, Helvetica, sans-serif; line-height:24px; background:#eeeeee; color:#000;}
+.mzxddcy{background:#fff; font-family:'华文细黑';}
+*{padding:0px; margin:0px;outline:0}
+div img{line-height:0px;}
+img{width:100%;}
+ul, li{list-style-type:none}
+.imgw10{width:10%;}
+.f26{font-size:26px;}
+.f18{font-size:18px;}
+.fl{float:left}
+.fr{float:right}
+.clear{clear:both}
+.clearkit{clear:both; height:0px; line-height:0px; font-size:0px;}
+.w_all{width:100%; margin:0 auto; clear:both; max-width:640px;}
+a{color:#212121;}
+a:link{text-decoration:none;}
+a:visited{ text-decoration:none;color:#212121}
+a:hover{ text-decoration:none;color:#212121;}
+a:active{text-decoration:none;}
+.txtcenter{text-align:center}
+.ptop10{padding-top:10px;}
+.backf2f{background:#f2f2f2;}
+.backff{background:#fff}
+a.an_btn{background:#e5152d; padding:9% 15%; border-radius:5px; color:#fff;}
+.lh40{line-height:40px;}
+.lh30{line-height:30px;}
+.btn_white{background:#fff; padding:3% 6%; border:#cccccc 1px solid; border-radius:5px; color:#000; font-size:20px;}
+.btn_red{background:#e5152d; padding:3% 6%; border:#cccccc 1px solid; border-radius:5px; color:#fff; font-size:20px;}
+
+
+.bor_botcc{ border-bottom:#cccccc 1px solid; padding-bottom:10px;}
+.bor_botcc01{ border-bottom:#cccccc 1px solid;}
+
+.bor_topcc{ border-top:#cccccc 1px solid; padding-bottom:10px;}
+.bor_tbcc{ border-top:#cccccc 1px solid;  border-bottom:#cccccc 1px solid; padding-bottom:10px;}
+.jiazaimore{text-align:center; padding:4% 0;}
+.jiazaimore img{width:5.6%}
+.appmore{text-align:center; padding:2% 0;}
+.appmore img{width:31.5%; margin:0 2%}
+.rot{animation:rotate 1s linear infinite;-webkit-animation:rotate 1s linear infinite; transform-origin:50% 50%;-webkit-transform-origin:50% 50%;}
+@keyframes rotate{0%{transform:rotate(0)} 100%{transform:rotate(360deg)}}
+@-webkit-keyframes rotate{0%{-webkit-transform:rotate(0)}100%{-webkit-transform:rotate(360deg)}}
+
+/***********h5首页css开始*************/
+
+/*瑞丽左上角导航*/
+.leftclick_daohan{position:fixed; width:100%; height:100%; background:#fff; z-index:99999; display:none}
+/*瑞丽左上角导航*/
+
+
+/*瑞丽第一行头*/
+.tou_close{width:9%; text-align:center; float:left; padding-top:6%; line-height:0px;}
+.tou_close img{width:37%;}
+.tou_biao{width:15%; float:left; padding:2% 0; line-height:0px;}
+.tou_biao img{width:80%;}
+.tou_wz{width:50%; float:left; padding-top:2%;}
+.tou_ck{width:17%; margin-right:3%; float:right; padding-top:5%;}
+
+/*瑞丽logo*/
+.r_logo{background:#ee1c24; position:relative; line-height:0px;}
+.r_logo span{color:#fff; font-size:20px; font-family:'华文细黑'; }
+.r_logo img{width:19.21%}
+
+.r_logo img.imgin29{width:26%}
+
+.r_starlogo{ position:relative; line-height:0px;}
+.r_starlogo img{width:41.25%}
+.r_lg_dh{position:absolute; top:35%; left:2%; z-index:888;}
+.r_raydh{position:absolute; top:42%; right:2%; z-index:888;}
+.r_starlogo .r_raydh img.dlh_img{width:15%}
+.r_raydh p.dlh_wz{font-size:14px;}
+
+
+.r_lg_dh img{width:50%}
+ul.raydhul{width:100%; border-top:#eae7e7 1px solid; /*border-top:#eae7e7 1px solid;*/ display:inline-block; margin:0 auto; margin-top:30px;}
+ul.raydhul li{float:left; border-bottom:#eae7e7 1px solid; border-right:#eae7e7 1px solid; width:33%; line-height:85px; text-align:center; font-size:20px;}
+ul.raydhul li.on{float:left; border-bottom:#eae7e7 1px solid; border-right:#eae7e7 1px solid; width:33%; line-height:85px; text-align:center; background:#ff0000; color:#fff;}
+ul.raydhul li.r_no{float:left;/* border-top:#eae7e7 1px solid;*/ border-right:0px; width:33%; line-height:85px; text-align:center;}
+ul.raydhul li.on a{color:#fff}
+/*瑞丽焦点图*/
+#wai{clear:both}
+.jdt_wz{width:100%; background:rgba(255,255,255,0.5); height:80px; z-index:999; position:absolute; bottom:0px; left:0px; text-align:center; font-size:22px; line-height:40px;}
+.page{position:absolute; bottom:15px; left:120px; z-index:1111}
+#wai .swiper-pagination-bullet{float:left; width:10px; height:10px; margin:0 5px; background:url(../images/jdt_1.png) no-repeat; background-size:cover; cursor:pointer; opacity:1}
+#wai .swiper-pagination-bullet-active{ width:10px; height:10px; margin:0 5px; background:url(../images/jdt_2.png) no-repeat; background-size:cover;}
+
+/*焦点图下三条*/
+.jdt_san{padding:20px 0 20px 3%; color:#696969; border-bottom:#cccccc 1px solid}
+.jdt_san a{color:#696969}
+.imgw3{width:3%}
+
+/*首页图表*/
+.in_listtu{position:relative; width:100%; background:#000; line-height:0px;}
+.in_tuw34,.in_tuw35{ padding-top:2%;}
+.in_tuw34 img{width:34%;}
+.in_tuw35 img{width:35.9%;}
+.in_listwz{font-size:22px; padding:2% 0;}
+
+.in_ad_lis1{font-size:22px; padding:10% 0 6% 0;}
+
+.in_listdate{color:#696969; font-size:14px; line-height:30px;}
+
+.in_video img{opacity:0.8}
+
+.in_video .in_vid img{opacity:1}
+
+.in_vid{position:absolute; z-index:1111; left:40%; top:40%; width:19%; height:19%;}
+.in_tuji{position:absolute; z-index:1111; right:0px;top:0%;width:10%}
+.mtop10{margin-top:10px;}
+
+.in_haose{position:absolute; z-index:1111; right:0px;bottom:4%;width:47.65%; background:rgba(255,255,255,0.5); line-height:30px; font-size:16px; font-family:'华文细黑'; color:#828282; padding:2%;}
+.in_haose p span{color:#ee1c24; font-weight:bold}
+.in_haose p span a{color:#ee1c24; font-weight:bold}
+.in_haose p.in_hs{font-size:26px;}
+
+.in_meiz{position:absolute; bottom:0px; width:100%; left:0px; background:rgba(255,255,255,0.5); height:80px;}
+.in_mzleft{float:left; width:17%; text-align:center; padding-top:4%;}
+.in_mzleft img{width:63%; border-radius:50%;}
+
+.in_mzcent{color:#212121; float:left; width:62%; font-size:16px; font-family:'华文细黑'; padding-top:9%}
+.in_mzright{float:right; padding:9% 3% 0 0; color:#ee1c24}
+
+.pl3{padding-left:3%}
+
+.in_syleft{width:72%; float:left}
+.in_syleft p{padding:0.5% 0}
+.in_syleft img{width:5%}
+.in_syright{float:right; width:25%; padding-top:10%;}
+.in_wybm{float:right; width:25%; padding-top:2%;}
+.in_twobm{float:right; width:25%; padding-top:4%;}
+.h10{height:10px;}
+/***********h5首页css结束*************/
+
+/***********h5试用css开始*************/
+.borderr_cc{border-right:#cccccc 1px solid;}
+.sy_two01{width:49.5%; float:left; color:#ee1c24; font-size:20px; font-family:'华文细黑'; text-align:center; height:60px; line-height:60px; border-bottom:#ee1c24 3px solid;}
+.sy_two02{width:49.5%; float:left; font-size:20px; font-family:'华文细黑'; text-align:center; height:60px; line-height:60px; border-bottom:#ffffff 3px solid;}
+.sy_chakanbg{float:right; width:25%; padding-top:4%;}
+.sy_in01{width:25%; text-align:center; float:left; line-height:33px; font-size:20px; font-family:'华文细黑';}
+.sy_in01 span{color:#e5152d;}
+.sy_in02{width:94%; margin:0 auto; clear:both; background:#fde8e9;}
+.sy_jt01{width:70%; float:left; font-family:'华文细黑'; line-height:300%}
+.sy_jt01 span{font-size:20px;}
+.sy_jt02{width:30%; float:left; background:#ee1c24; font-family:'华文细黑';}
+.sy_jt02 img{width:16%}
+.sy_jt02 a{color:#fff}
+.sy_fx01{clear:both; margin:0 auto; width:94%; padding:2% 0;}
+.sy_fx01 img{width:10%}
+.sy_shuom01{margin:0 auto; width:94%; clear:both; font-family:'华文细黑';}
+.sy_shuom01 span{font-weight:bold; font-size:20px; padding:4% 0; display:inline-block;}
+.sy_smon{width:25%; float:left; text-align:center; background:url(../images/sy_smon01.gif) no-repeat center left; background-size:contain;}
+.sy_smof{width:25%; float:left; text-align:center; background:url(../images/sy_smof01.gif) no-repeat center left; background-size:contain;}
+.sy_smof span{color:#adadad}
+
+.xztp_file {
+    position: relative;
+	border:#e5152d 1px solid; color:#ff0000; border-radius:5px; padding:2% 5%; background:#fff; font-size:16px; width:30%; margin-top:10px;
+}
+ a.xztp_file{color:#ff0000}
+.xztp_file input {
+    position: absolute;
+    font-size: 20px;
+    right: 0;
+    top: 0;
+    opacity: 0;
+    filter: alpha(opacity=0);
+    cursor: pointer
+}
+
+.sy_thr01{width:33%; float:left; color:#ee1c24; font-size:20px; font-family:'华文细黑'; text-align:center; height:60px; line-height:60px; border-bottom:#ee1c24 3px solid;}
+.sy_thr02{width:33%; float:left; font-size:20px; font-family:'华文细黑'; text-align:center; height:60px; line-height:60px; border-bottom:#ffffff 3px solid;}
+
+.lixifs01{margin:0 auto; width:94%; clear:both;}
+.lx_xm01{float:left; width:25%; line-height:60px; font-size:20px;}
+.lx_xm02{float:left; width:70%; line-height:60px; font-size:20px; position:relative; overflow:hidden; height:60px;}
+
+.csxxhj01 .lx_xm01{float:left; width:30%; line-height:60px; font-size:20px;}
+.csxxhj01 .lx_xm02{float:left; width:65%; line-height:60px; font-size:20px; position:relative; overflow:hidden; height:60px;}
+.csxxhj01 .lx_xm02 select{color:#b4b4b4}
+.csxxhj02 .lx_xm01{float:left; width:45%; line-height:60px; font-size:20px;}
+.csxxhj02 .lx_xm02{float:left; width:50%; line-height:60px; font-size:20px; position:relative; overflow:hidden; height:60px;}
+.csxxhj02 .lx_xm02 select{color:#b4b4b4}
+.sel_right{float:right; width:5%; padding-top:18px;}
+.sel_right img{width:60%}
+
+.lx_xm02 input{border:0px; padding:5px; line-height:50px; font-size:20px; width:90%;}
+.lx_xm02 select{border:0px; padding:5px; line-height:50px; font-size:20px; width:110%;/* clip:rect(auto 205px auto auto); position:absolute;*/}
+.lx_liy01{clear:both; padding:3% 0; font-size:20px;}
+.lx_liy01 textarea{width:100%; height:150px; border:0px; line-height:22px; font-size:20px;}
+
+
+/***********h5试用css结束*************/
+
+/***********h5美容css开始*************/
+.mr_in01{width:94%; clear:both; position:relative; margin:0 auto}
+.mr_listdate{color:#696969; font-size:14px; line-height:30px; position:absolute; right:0px; bottom:0px; line-height:20px;}
+
+.width_94{width:94%; margin:0 auto; clear:both}
+.mzxdtitle{font-size:22px; font-weight:bold; line-height:30px; padding:2% 0 2% 0;}
+.qtpj_ti{font-size:30px; line-height:43px; padding:4% 0 2% 0;}
+
+.mzxddate{color:#696969;font-size:16px; font-weight:normal; line-height:20px;}
+.mzxddate a{color:#696969}
+.xd_mzleft{float:left; width:17%; padding-top:4%;}
+.xd_mzleft img{width:90%; border-radius:50%;}
+.xd_mzright{float:left; width:83%; line-height:26px; padding-top:5%}
+.xd_mzright span{font-size:20px;}
+.xd_content{font-size:20px; line-height:30px;}
+.xd_content img{margin:10px 0}
+.xd_content span{color:#696969; font-size:16px;}
+.width_70{width:70%; margin:0 auto; clear:both}
+.xd_weix{float:left; width:40%;}
+.xd_weix img{width:80%}
+.xd_wxright{width:60%; float:left}
+.xd_wxright span{font-size:20px; line-height:30px;}
+/***********h5美容css结束*************/
+
+
+/***********h5好物css开始*************/
+.hw_listtu{position:relative; width:94%; line-height:0px; margin:0 auto;}
+.hw_haose{position:absolute; z-index:1111; right:0px;bottom:4%;width:50%; background:rgba(255,255,255,0.5); line-height:30px; font-size:22px; font-family:'华文细黑'; color:#828282; padding:5%;}
+.w_xianxi .hw_listtu{position:relative; width:100%; line-height:0px; margin:0 auto;}
+.w_xianxi .ptop10{padding:0px;}
+.w_xianxi_ul{width:95%; clear:both; margin:0 auto}
+.w_xianxi_ul li{float:left; width:46%; margin:10px 2% 10px 2%; background:#fff; overflow:hidden}
+.w_xximg{overflow:hidden; text-align:center; width:100%;}
+.w_xximg img{width:auto}
+.w_xxwz{clear:both; font-size:20px; padding:5% 8%; line-height:22px;}
+
+
+/***********h5好物css结束*************/
+
+/***********h5登录css开始*************/
+.denglu01{padding:3%; width:3.9%;}
+.disanfan{text-align:center; font-size:26px; font-family:'华文细黑';}
+.disanfan img{width:12.65%; margin:4% 5%}
+.imgw32{width:80%}
+
+
+.denglu_xm01{float:left; width:6%; padding:5px 0; line-height:50px; font-size:20px; height:50px;}
+.denglu_xm02{float:left; width:94%; line-height:60px; font-size:20px;}
+.denglu_xm02 input{border:0px; padding:5px; line-height:50px; font-size:20px; width:90%;}
+.denglu_xm02 select{border:0px; padding:5px; line-height:50px; font-size:20px; width:90%;}
+.btn_w94{width:94%}
+a.ared{color:#e5152d}
+/***********h5登录css结束*************/
+
+/***********h5瑞丽之星css开始*************/
+.csxx01{width:96%; clear:both; line-height:60px; font-size:20px;}
+.csxx01 textarea{border:0px; padding:5px; line-height:20px; font-size:20px; width:100%; color:#b4b4b4}
+.csxx01 select{border:0px; padding:5px; line-height:50px; font-size:20px; width:50%; color:#b4b4b4}
+.csxx01 span{color:#b4b4b4}
+.xuanzetup{border:#e5152d 1px solid; color:#ff0000; border-radius:5px; padding:2% 5%; background:#fff; font-size:16px; width:30%;}
+.yanzm{border:#e5152d 1px solid; color:#ff0000; border-radius:5px; padding:2% 5%; background:#fff; font-size:16px;}
+ul.tupianyul li{float:left; width:16%; margin:1% 2%}
+.denglu_xm02 input.yzm_put{width:60%}
+
+/*pbl*/
+.star_sylist{float:left; width:90%; background:#fff; margin:6% 0 0 6%;}
+.star_pblwz{padding:5%; line-height:24px; font-size:14px;}
+.star_pblwz span{font-size:26px;}
+
+
+/***********h5瑞丽之星css结束*************/
+/***********h5极速css开始*************/
+.ray_jisu{padding:10px 0; /*border-bottom:#ccc 1px solid*/}
+.ray_js01{color:#ee1c24; font-size:26px; line-height:40px; font-weight:bold; font-family:'华文细黑'; float:left}
+.ray_js01 a{color:#ee1c24;}
+.ray_js02{font-size:20px; line-height:40px; font-family:'华文细黑'; float:right}
+
+.js_title{clear:both; font-size:26px; line-height:40px; font-family:'华文细黑'; font-weight:bold}
+.js_wzl{line-height:33px;}
+.imgw5{width:5.6%}
+.footer{color:#c8c8c8; line-height:30px; padding:10px 0;}
+.footer a{color:#c8c8c8}
+.back000{background:#000}
+/***********h5极速css结束*************/
+
+/***********h5底层页css开始*************/
+.dcy_content{font-size:20px; line-height:30px;}
+.dcy_content img{margin:10px 0 3px 0;}
+.dcy_content span{color:#696969; font-size:16px; display:inline-block; text-align:center; line-height:24px; padding-bottom:5%;}
+.dcy_biaoq{color:#696969; padding:2% 0;}
+.dcy_biaoq a{display:inline-block; background:#f1f1f1; color:#696969; padding:1% 3%; margin:1%;}
+ul.dcy_bjjx li{clear:both; padding:1% 0 1% 3%; background:url(../images/bjjx01.jpg) no-repeat center left;}
+
+.dcy_close_big{width:3%; top:10px; right:10px; position:fixed; z-index:9999; display:none}
+
+#dcy_bigtu{width:100%; height:100%; position:fixed; background:#000; z-index:9988; display:none}
+#dcy_bigtu.swiper-container,#in .swiper-slide{width: 100%; height: 100%;}
+#dcy_bigtu .swiper-slide{overflow: hidden; position: relative;}
+#dcy_bigtu td{height:100%}
+
+.animited{
+	-webkit-animation-duration: 0.5s;
+	animation-duration: 0.5s;
+	animation-fill-mode:both ;
+	-webkit-animation-fill-mode:both ;
+}
+
+@-webkit-keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+@keyframes zoomIn {
+  0% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    -ms-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  50% {
+    opacity: 1;
+  }
+}
+
+.zoomIn {
+  -webkit-animation-name: zoomIn;
+  animation-name: zoomIn;
+}
+
+@-webkit-keyframes zoomOut {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+@keyframes zoomOut {
+  0% {
+    opacity: 1;
+  }
+
+  50% {
+    opacity: 0;
+    -webkit-transform: scale3d(.3, .3, .3);
+    -ms-transform: scale3d(.3, .3, .3);
+    transform: scale3d(.3, .3, .3);
+  }
+
+  100% {
+    opacity: 0;
+  }
+}
+
+.zoomOut {
+  -webkit-animation-name: zoomOut;
+  animation-name: zoomOut;
+}
+/***********h5底层页css结束*************/
+
+
+/*映画集开始*/
+.yhj_h5{background:#000}
+.yhj_fx{width:4.3%; padding:3%; top:1%; right:3%; position:absolute; z-index:1000; cursor:pointer;  }/*betty20151210*/
+
+	/*左右翻页css*/
+
+.load_before{text-align:center; padding-top:50%;}
+.load_before img{width:20%}
+.shangyiye{display:none}
+.huadong_left1,.huadong_left2{display:none}
+	
+	
+.huadong_left1{position:fixed; top:50%; left:0px; z-index:9999;display:none}
+.huadong_left2{position:fixed; top:50%; right:0px; z-index:9999;display:none}
+	
+.shangyiye,.xiayiye{position:absolute; right:30px; color:#a4a5a5}
+.xiayiye{position:absolute; left:30px; right:auto}
+.yhjtable{clear:both; width:100%; margin:0 auto; height:100%; }/*betty20151210*/
+.yhjtable table,.yhjtable tr,.yhjtable td{width:100%; height:100%}
+
+.yhjbqw{width:5.15%}
+
+.yhj_bq { color:#a4a5a5; padding:2%; bottom:0%; left:2%; width:92%;  position:absolute; z-index:1000; }/*betty20151210*/
+.yhj_bq a{color:#a4a5a5}
+.yhjwz{position:absolute; bottom:0px; left:0px; z-index:8888; padding:3% 3% 10% 3%; width:94%;
+	 background-image: -webkit-linear-gradient(top, rgba(0,0, 0, 0.01) 0%, rgba(0,0, 0, 1) 100%);
+	  background-image: -moz-linear-gradient(top, rgba(0,0, 0, 0.01) 0%, rgba(0,0, 0, 1) 100%);
+	  background-image: -o-linear-gradient(top, rgba(0,0, 0, 0.01) 0%, rgba(0,0, 0, 1) 100%);
+	  background-image: linear-gradient(top, rgba(0,0, 0, 0.01) 0%, rgba(0,0, 0, 1) 100%);
+ }/*betty20151210*/
+.yhjwz_t{font-size:24px; color:#fff; padding:2% 0; font-family:'华文细黑'; text-align:center}
+.yhjwz_t span{color:#d33942}
+.yhjwz_con{padding:2%; color:#c7c8c8;}
+.content{width:100%; height:70px;}
+/*映画集结束*/
+
+
+
+
+
+@media screen and (min-width: 320px) and (max-width: 400px){
+	
+	/***********h5首页css开始*************/
+	
+	body{font-size:14px; line-height:22px;}
+	.r_raydh p.dlh_wz{font-size:12px;}
+	.r_logo span{color:#fff; font-size:18px; font-family:'华文细黑'; }
+	.jdt_wz{height:70px; font-size:18px; line-height:28px;}
+	.jdt_san{padding:15px 0 15px 3%;}
+	.in_listwz{font-size:20px;}
+	
+	.in_ad_lis1{font-size:20px;}
+	
+	.in_listdate{color:#696969; font-size:12px;}
+	.in_haose{line-height:22px; font-size:14px;}
+	.in_haose p.in_hs{font-size:18px;}
+	.in_meiz{height:70px;}
+	.in_mzcent{font-size:14px;}
+	.f26{font-size:20px;}
+	.f18{font-size:16px;}
+	
+	/***********h5首页css结束*************/
+	
+	
+		
+	/***********h5试用css开始*************/
+	
+	.sy_two01,.sy_two02{font-size:16px; height:50px; line-height:50px;}	
+	.sy_thr01,.sy_thr02{font-size:16px; height:50px; line-height:50px;}	
+	.sy_in01{line-height:25px; font-size:18px;}
+	.sy_jt01 span{font-size:16px;}
+	.sy_shuom01 span{font-size:16px; padding:3% 0;}
+	.lx_xm01,.lx_xm02{line-height:50px; font-size:18px; height:50px;}
+	
+	.csxxhj01 .lx_xm01,.csxxhj02 .lx_xm01,.csxxhj01 .lx_xm02,.csxxhj02 .lx_xm02{line-height:50px; font-size:18px; height:50px;}
+	
+	.lx_xm02 input{line-height:40px; font-size:18px;}
+	.lx_xm02 select{line-height:30px; font-size:16px;}
+	.sel_right{padding-top:15px;}
+	.lx_liy01{font-size:18px;}
+	.lx_liy01 textarea{height:120px; font-size:18px;}
+	/***********h5试用css结束*************/
+	
+	
+	
+	/***********h5美容css开始*************/
+	.mr_listdate{font-size:12px;}
+	.mzxdtitle{font-size:20px; line-height:28px;}
+	.qtpj_ti{font-size:26px; line-height:36px;}
+	.mzxddate{font-size:14px;}
+	.xd_mzright{line-height:24px; padding-top:5%}
+	.xd_mzright span{font-size:16px;}
+	.xd_content{font-size:16px; line-height:26px;}
+	.xd_content span{font-size:14px;}
+	.xd_wxright span{font-size:16px; line-height:26px;}
+	/***********h5美容css结束*************/
+	
+	/***********h5登录css开始*************/
+	.disanfan{font-size:18px;;}
+	
+	
+	.denglu_xm01{float:left; width:6%; line-height:50px; font-size:20px; height:50px;}
+	.denglu_xm02{float:left; width:94%; line-height:50px; font-size:20px;}
+	.denglu_xm02 input{border:0px; padding:5px; line-height:50px; font-size:20px; width:90%;}
+	.denglu_xm02 select{border:0px; padding:5px; line-height:50px; font-size:20px; width:90%;}
+	
+	/***********h5登录css结束*************/
+	
+	/***********h5好物css开始*************/
+	.hw_haose{line-height:28px; font-size:18px;}
+	.w_xxwz{font-size:16px; line-height:22px;}
+	
+	/***********h5好物css结束*************/
+	
+	/***********h5底层页css开始*************/
+	.dcy_content{font-size:16px; line-height:26px;}
+	.dcy_content span{font-size:14px;}
+	/***********h5底层页css结束*************/
+	
+	/***********h5瑞丽之星css开始*************/
+	.csxx01{line-height:50px; font-size:18px;}
+	.csxx01 textarea{font-size:18px;}
+	.csxx01 select{50px; font-size:18px}
+	
+	ul.raydhul{padding-top:0px;}
+	ul.raydhul li,ul.raydhul li.on,ul.raydhul li.r_no{ line-height:80px; font-size:18px;}
+	/***********h5瑞丽之星css结束*************/
+	
+	/***********h5极速css开始*************/
+	.ray_js01{font-size:22px; line-height:45px;}
+	.ray_js02{font-size:18px; line-height:45px;}
+	.js_title{font-size:20px; line-height:30px;}
+	/***********h5极速css结束*************/
+	.denglu_xm02 input.yzm_put{width:50%}
+	
+	
+	
+	/*映画集开始*/
+	.yhjwz_t{font-size:22px;}
+	.content{height:70px;}
+	/*映画集结束*/
+	
+}
+@media screen and (max-width: 320px){
+	
+	/***********h5首页css开始*************/
+	
+	
+	body{font-size:12px; line-height:20px;}
+	.r_raydh p.dlh_wz{font-size:10px;}
+	.r_logo span{color:#fff; font-size:16px; font-family:'华文细黑'; }
+	.jdt_wz{height:60px; font-size:16px; line-height:24px;}
+	.jdt_san{padding:10px 0 10px 3%;}
+	.in_listwz{font-size:18px;}
+	.in_ad_lis1{font-size:18px;}
+	
+	.in_listdate{color:#696969; font-size:12px;}
+	.in_haose{line-height:22px; font-size:12px;}
+	.in_haose p.in_hs{font-size:16px;}
+	.in_meiz{height:60px;}
+	.in_mzcent{font-size:12px;}
+	.f26{font-size:18px;}
+	.f18{font-size:14px;}
+	/***********h5首页css结束*************/
+	
+	
+	/***********h5试用css开始*************/
+	
+	.sy_two01,.sy_two02{font-size:14px; height:40px; line-height:40px;}
+	.sy_thr01,.sy_thr02{font-size:14px; height:40px; line-height:40px;}	
+	.sy_in01{line-height:22px; font-size:16px;}
+	.sy_jt01 span{font-size:14px;}
+	.sy_shuom01 span{font-size:14px; padding:2% 0;}
+	.lx_xm01,.lx_xm02{line-height:40px; font-size:16px; height:40px;}
+	.csxxhj01 .lx_xm01,.csxxhj02 .lx_xm01,.csxxhj01 .lx_xm02,.csxxhj02 .lx_xm02{line-height:40px; font-size:16px; height:40px;}
+	.sel_right{padding-top:10px;}
+	.lx_xm02 select{line-height:20px; font-size:14px;}
+	.lx_xm02 input{line-height:30px; font-size:16px;}
+	.lx_liy01{font-size:16px;}
+	.lx_liy01 textarea{height:100px; font-size:16px;}
+	/***********h5试用css结束*************/
+	
+	
+	/***********h5美容css开始*************/
+	.mr_listdate{font-size:12px;}
+	.mzxdtitle{font-size:18px; line-height:25px;}	
+	.qtpj_ti{font-size:23px; line-height:33px;}
+	.mzxddate{font-size:12px;}
+	.xd_mzright{line-height:22px; padding-top:5%}
+	.xd_mzright span{font-size:14px;}
+	.xd_content{font-size:14px; line-height:22px;}
+	.xd_content span{font-size:12px;}
+	.xd_wxright span{font-size:14px; line-height:22px;}
+	/***********h5美容css结束*************/
+	
+	/***********h5好物css开始*************/
+	.hw_haose{line-height:26px; font-size:16px;}
+	.w_xxwz{font-size:14px; line-height:22px;}
+	
+	/***********h5好物css结束*************/
+	/***********h5登录css开始*************/
+	.disanfan{font-size:18px;;}
+	
+	
+	.denglu_xm01{float:left; width:6%; line-height:40px; font-size:15px; height:40px;}
+	.denglu_xm02{float:left; width:94%; line-height:40px; font-size:15px;}
+	.denglu_xm02 input{border:0px; padding:5px; line-height:40px; font-size:14px; width:90%;}
+	.denglu_xm02 select{border:0px; padding:5px; line-height:40px; font-size:14px; width:90%;}
+	
+	/***********h5登录css结束*************/
+	/***********h5底层页css开始*************/
+	.dcy_content{font-size:14px; line-height:22px;}
+	.dcy_content span{font-size:12px;}
+	/***********h5底层页css结束*************/
+	/***********h5瑞丽之星css开始*************/
+	.csxx01{line-height:40px; font-size:16px;}
+	.csxx01 textarea{font-size:16px;}
+	.csxx01 select{50px; font-size:16px}
+	ul.raydhul{padding-top:0px;}
+	ul.raydhul li,ul.raydhul li.on,ul.raydhul li.r_no{ line-height:60px; font-size:16px;}
+	
+	/***********h5瑞丽之星css结束*************/
+	/***********h5极速css开始*************/
+	.ray_js01{font-size:20px; line-height:35px;}
+	.ray_js02{font-size:16px; line-height:35px;}
+	.js_title{font-size:16px; line-height:30px;}
+	/***********h5极速css结束*************/
+	.denglu_xm02 input.yzm_put{width:50%}
+	
+	
+	
+	/*映画集开始*/
+	.yhjwz_t{font-size:18px;}
+	.content{height:62px;}
+	/*映画集结束*/
+}
+
+
+
+
+
+
+
+/*betty20151208*/
+.bor_zj_2bt { font-size:150%; padding:6% 5% 2%; display:inline-block; }
+.bor_zj_3bt_e { font-size:100%; padding-left:1%;  display:inline-block; font-family:Verdana, Geneva, sans-serif; font-size:18px; }
+.bor_zj_3bt_c { font-size:100%; padding-left:1%; padding-right:2%; display:inline-block; }
+.in_listdate2 {color:#696969; font-size:14px; line-height:30px; padding:2% 4% 0%;  color:#5b5b5b; height:90px; overflow:hidden; }
+.in_listdate2 a{color:#696969}
+.in_listdate2b {color:#696969; font-size:14px; line-height:30px; padding:2% 4% 0%;  color:#5b5b5b; }
+.in_listdate2b a{color:#696969}
+.f14 { font-size:14px !important;}
+.f16 { font-size:16px !important;}
+.color_red {color:#ee1c24;}
+.color_red a{color:#ee1c24}
+.zj_video_fx{ position:absolute; z-index:1000; width:4.3%; padding:3%; top:2%; right:3%; cursor:pointer;  }
+.zj_video_button {  width:88%; margin:5% auto 5%; padding:2%; text-align:center; font-size:100%; border-radius:8px;  -moz-border-radius:8px; border:1px solid #b0b0b0; color:#333333; display:block;  }
+
+.zj_video {margin:0 auto; width:94%; clear:both; font-family:'华文细黑';  font-size:20px; font-weight:bold; padding:2% 0; }
+.zj_video_pic {width:100%; }
+.zj_video_pic ul {width:96%; margin:0 auto;  clear:both;}
+.zj_video_pic ul li{float:left; width:46%; margin:10px 2% 10px 2%; overflow:hidden}
+.zj_v_p_ul_pic{overflow:hidden; text-align:center; width:100%;}
+.zj_v_p_ul_pic img{width:100%;}
+.zj_v_p_ul_txt{clear:both; font-size:18px; padding:1%; line-height:22px; text-align:center; color:#333; }
+.zj_v_p_ul_txt a{color:#333; }
+
+.w94 { margin:0 auto; width:94%;  }
+.pt2_img { margin:0 auto;  }
+.pt2_img img { padding:2% 0% 0%; width:100%;  }
+
+
+
+/*映画集开始betty20151212*/
+#yhj_in { height:100%; }
+.returnTool .share{opacity:1}
+/*betty20151208*/
+

@@ -1,0 +1,54 @@
+
+<!DOCTYPE HTML>
+<html>
+<head>
+<meta charset="utf-8" />
+<meta http-equiv="Cache-Control" content="no-cache"/>
+<meta content="width=device-width, minimum-scale=1.0, maximum-scale=2.0" name="viewport" />
+<title>手机瑞丽网</title>
+<meta content="瑞丽服饰,瑞丽美容,瑞丽情感,瑞丽明星,瑞丽街拍,瑞丽美体,瑞丽健康,瑞丽生活" name="keywords" /> 
+<meta name="description" content="手机瑞丽网是瑞丽女性网的手机门户网站,中国第一女性垂直门户,中国最具人气时尚女性网站." />
+<meta http-equiv="refresh" content="3;url=/">
+<link href="/public/color/global.css" rel="stylesheet" type="text/css" />
+<script type="text/javascript">
+var _bdhmProtocol = (("https:" == document.location.protocol) ? " https://" : " http://");
+document.write(unescape("%3Cscript src='" + _bdhmProtocol + "hm.baidu.com/h.js%3F232c080ae6d5117d68215c1553d103f5' type='text/javascript'%3E%3C/script%3E"));
+</script>
+</head>
+<body>
+<link href="http://hm.baidu.com/hm.gif?si=40de8255be9642cce84b4c9ba5814fe9&amp;et=0&amp;nv=1&amp;st=1&amp;su=http%3A%2F%2Fwap.rayli.com.cn%2F&amp;v=wap-0-0.2&amp;rnd=9374319033" rel="stylesheet" type="text/css" />
+
+
+<link href="/public/color/raysan.css" rel="stylesheet" type="text/css" />
+<a id="top" accesskey="0" name="top" href="#mainpage"></a>
+<nav class="navcss1"><a href="/color/index.shtml">首页</a><a href="/color/fushi/16/channel.shtml">服饰</a><a href="/color/meirong/9/channel.shtml">美容</a><a href="/color/jiankang/15/channel.shtml">健康</a><a href="/color/meiti/14/channel.shtml">美体</a></nav>
+
+<div class="bds">
+你访问的网页不存在……<br/>
+3秒后跳转至首页
+</div>
+
+<dl class="pleft10">	
+	<a href="index.shtml" class="redfen"> &lt;&lt; 返回上级</a>
+</dl>
+<!--瑞丽时尚推荐   热点TOP5-->
+
+<dl class="search">
+	<p>
+	
+	</p>
+    <div class="divch">
+    <form action="/article/search.php?" method="GET">
+        <input type="text" placeholder="搜索.." value="杨幂" name="title" class="diinp"></div><div class="seabut">
+        <input type="hidden" class="input" value="article" name="type" />
+        <input type="hidden" class="input" value="color" name="ver" />
+        <input id="search_btn" class="aclose" type="submit" value="搜索">
+    </form></div>
+</dl>
+<footer class="footer">
+	<p class="txtcenter"><a href="/index.php?changeview=1&viewtype=wml&type=1">简版</a> | <a href="/index.php?changeview=1&viewtype=color&type=1">3G版</a> | <a href="/index.php?changeview=1&viewtype=iphone&type=1">触屏版</a><br /><a href="/register.php">注册</a> - <a href="/login.php">登录</a><!-- - <a href="w">个人中心</a>--><br />瑞丽Rayli(京ICP证010512号)</p>
+</footer>
+
+</body>
+</html>
+
