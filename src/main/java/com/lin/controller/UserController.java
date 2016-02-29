@@ -1,6 +1,7 @@
 package com.lin.controller;
 
 import com.lin.domain.User;
+import com.lin.model.Pic;
 import com.lin.model.Tag;
 import com.lin.service.UserService;
 import org.springframework.stereotype.Controller;
@@ -48,13 +49,22 @@ public class UserController {
     public ModelAndView raypic2() {
 
         ModelAndView mv = new ModelAndView("raypic2");
-        List<Tag> list  = new ArrayList<Tag>();
+        List<Tag> list = new ArrayList<Tag>();
         Tag tag = new Tag();
         tag.setTagTitle("测试");
         list.add(tag);
 
-        mv.addObject("tags",list);
-        mv.addObject("title","t红鼎艺术");
+        List<Pic> picList = new ArrayList<Pic>();
+        for (int i = 0; i < 20; i++) {
+            Pic pic = new Pic();
+            pic.setUrl("http://uploads.rayli.com.cn/2016/0219/1455884958932.jpg");
+            pic.setT("既然毛衣裙这么好穿，就再来一款，这件和上一件差不多款式，只是这次搭配上小白鞋和puzzlebag，也是毫无违和感，运动混搭风元气爆棚。");
+            picList.add(pic);
+        }
+
+        mv.addObject("pics", picList);
+        mv.addObject("tags", list);
+        mv.addObject("title", "t红鼎艺术");
         return mv;
     }
 }
