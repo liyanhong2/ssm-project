@@ -26,6 +26,7 @@
     <mvc:resources location="WEB-INF/view/css/" mapping="/css/**" />
     <mvc:resources location="WEB-INF/view/js/" mapping="/js/**" />
     <mvc:resources location="WEB-INF/view/rayli_files/" mapping="/rayli_files/**" />
+    <mvc:resources location="WEB-INF/view/raylipic_files/" mapping="/raylipic_files/**" />
     <mvc:annotation-driven />
 
     <!-- static files -->
