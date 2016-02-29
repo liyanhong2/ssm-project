@@ -22,6 +22,11 @@
         <property name="suffix" value=".jsp" />
     </bean>
 
+    <mvc:resources location="WEB-INF/view/images/" mapping="/images/**" />
+    <mvc:resources location="WEB-INF/view/css/" mapping="/css/**" />
+    <mvc:resources location="WEB-INF/view/js/" mapping="/js/**" />
+    <mvc:annotation-driven />
+
     <!-- static files -->
     <!--<mvc:resources mapping="/css/**" location="/css/" cache-period="86400" />-->
     <!--<mvc:resources mapping="/images/**" location="/images/" cache-period="86400" />-->

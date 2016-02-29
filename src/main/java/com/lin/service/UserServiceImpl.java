@@ -18,7 +18,7 @@ public class UserServiceImpl implements UserService{
 	private UserDao userDao;
 
 	public User selectUserById(Integer userId) {
-		return userDao.selectUserById(userId);
+		return null;//userDao.selectUserById(userId);
 		
 	}
 
