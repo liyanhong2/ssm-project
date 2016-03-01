@@ -1630,12 +1630,6 @@
         </div>
     </div>
 </div>
-<style>
-    .sharePage .bshare-custom.icon-medium a.bshare-qqmb {
-        background: url("http://mcms.rayli.com.cn/templates/rayli/rayli/images/dengluimg_11.png") no-repeat;
-        background-size: 100% 100%
-    }
-</style>
 <div class="sharePage">
     <div class="close"></div>
     <div class="tit">分享到</div>
@@ -1643,10 +1637,9 @@
     <div id="nativeShare">
         <div class="bshare-custom icon-medium">
             <div class="bsPromo bsPromo2"></div>
-            <a title="分享到新浪微博" class="bshare-sinaminiblog"></a><a title="分享到腾讯微博" class="bshare-qqmb"
-                                                                  href="javascript:void(0);"></a><a title="分享到QQ空间"
-                                                                                                    class="bshare-qzone"
-                                                                                                    href="javascript:void(0);"></a>
+            <a title="分享到新浪微博" class="bshare-sinaminiblog"></a>
+            <a title="分享到腾讯微博" class="bshare-qqmb" href="javascript:void(0);"></a>
+            <a title="分享到QQ空间" class="bshare-qzone" href="javascript:void(0);"></a>
         </div>
         <div class="txt"><span>微博</span><span>腾讯</span><span>空间</span></div>
     </div>

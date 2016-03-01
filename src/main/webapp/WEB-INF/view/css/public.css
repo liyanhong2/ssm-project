@@ -1,4 +1,10 @@
 
+.sharePage .bshare-custom.icon-medium a.bshare-qqmb {
+	background: url("http://mcms.rayli.com.cn/templates/rayli/rayli/images/dengluimg_11.png") no-repeat;
+	background-size: 100% 100%
+}
+
+
 article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
 	display: block
 }
@@ -392,6 +398,7 @@ h1,h2,h3,h4,h5,h6 {
 	width: 16rem;
 	height: 100%;
 	overflow: hidden;
+	/*溢出的部分隐藏*/
 	background: rgba(255,255,255,0.98);
 	position: fixed;
 	left: 50%;
@@ -468,17 +475,17 @@ h1,h2,h3,h4,h5,h6 {
 }
 
 .sharePage .bshare-custom.icon-medium a.bshare-weixin {
-	background: url("http://mcms.rayli.com.cn/templates/rayli/rayli/images/share_wx.png") no-repeat;
+	background: url(../images/share/share_wx.png) no-repeat;
 	background-size: 100% 100%
 }
 
 .sharePage .bshare-custom.icon-medium a.bshare-sinaminiblog {
-	background: url("http://mcms.rayli.com.cn/templates/rayli/rayli/images/share_sina.png") no-repeat;
+	background: url(../images/share/share_sina.png) no-repeat;
 	background-size: 100% 100%
 }
 
 .sharePage .bshare-custom.icon-medium a.bshare-qzone {
-	background: url("http://mcms.rayli.com.cn/templates/rayli/rayli/images/share_qq.png") no-repeat;
+	background: url(../images/share/share_qq.png) no-repeat;
 	background-size: 100% 100%
 }
 
